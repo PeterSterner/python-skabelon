@@ -1,0 +1,17 @@
+certifi==2022.12.7
+charset-normalizer==3.0.1
+freetype-py==2.1.0.post1
+glfw==1.11.2
+hsluv==5.0.3
+idna==3.4
+kiwisolver==1.4.4
+numpy==1.24.1
+p5==0.8.1
+Pillow==9.0.1
+pybind11==2.10.3
+pygame==2.1.2
+PyOpenGL==3.1.6
+requests==2.28.2
+skia-python==87.5
+urllib3==1.26.14
+vispy==0.10.0
