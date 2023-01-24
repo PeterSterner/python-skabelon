@@ -4,8 +4,8 @@ Dette projekt har til formål at lette opsætningen af bl.a. p5 og pygames med p
 
 # Afhængigheder
 
-- Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/).
-- Python [https://www.python.org/downloads/](https://www.python.org/downloads/).    
+- Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/).
+- Python: [https://www.python.org/downloads/](https://www.python.org/downloads/).    
 - OpenGL udviklingsværktøj: [https://www.glfw.org/download.html](https://www.glfw.org/download.html).
 - Extensions:
     - Python [https://marketplace.visualstudio.com/items?itemName=ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
