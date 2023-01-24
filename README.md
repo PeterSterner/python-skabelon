@@ -30,3 +30,8 @@ Dette projekt har til formål at lette opsætningen af bl.a. p5 og pygames med p
 
 1. Åbn `pygames.py`.
 2. Tryk på Ctrl+F5.
+
+# Afprøv matplotlib
+
+1. Åbn `graph.py`.
+2. Tryk på Ctrl+F5.
