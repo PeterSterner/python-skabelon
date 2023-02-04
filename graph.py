@@ -17,5 +17,5 @@ x = np.linspace(a, b, 1000)
 y = f(x)
 
 plt.plot(x, y, color='red', linestyle='-', linewidth=2)
-plt.grid(b=True, color='grey', alpha=0.1, linestyle='--', linewidth=1)
+plt.grid(visible=True, color='grey', alpha=0.1, linestyle='--', linewidth=1)
 plt.show()
