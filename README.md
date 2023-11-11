@@ -20,11 +20,3 @@ Dette projekt har til formål at lette opsætningen af python og diverse andre v
     4. Vælg den globale Python-fortolker. På min maskine er det i skrivende stund: `Python 3.10.8 64 bit /bin/python`.
     5. Vent et øjeblik.
 3. Installér afhængigheder: `pip install -r requirements.txt`
-
-1. Åbn `pygames.py`.
-2. Tryk på Ctrl+F5.
-
-# Afprøv matplotlib
-
-1. Åbn `graph.py`.
-2. Tryk på Ctrl+F5.
