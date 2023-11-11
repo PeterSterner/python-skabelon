@@ -1,6 +1,6 @@
 # Formål
 
-Dette projekt har til formål at lette opsætningen af bl.a. p5 og pygames med python.
+Dette projekt har til formål at lette opsætningen af python og diverse andre værktøjer.
 
 # Afhængigheder
 
