@@ -21,13 +21,6 @@ Dette projekt har til formål at lette opsætningen af bl.a. p5 og pygames med p
     5. Vent et øjeblik.
 3. Installér afhængigheder: `pip install -r requirements.txt`
 
-# Afprøv p5
-
-1. Åbn `p5sketch.py`.
-2. Tryk på Ctrl+F5.
-
-# Afprøv pygames
-
 1. Åbn `pygames.py`.
 2. Tryk på Ctrl+F5.
 
