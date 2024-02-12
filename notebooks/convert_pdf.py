@@ -1,4 +1,7 @@
 import subprocess
+import os
+
+print(os.name)
 
 # Navn på notebook (må gerne ændres)
 notebook = "test.ipynb"
@@ -39,12 +42,20 @@ p = subprocess.Popen(
 p.wait()
 
 # Til sidst fjerner vi hjælpefiler
-subprocess.Popen('echo "Fjerner diverse filer..."', shell=True)
-subprocess.Popen('rm ' + tex, shell=True)
-subprocess.Popen('rm pdf/*.aux', shell=True)
-subprocess.Popen('rm pdf/*.log', shell=True)
-subprocess.Popen('rm pdf/*.out', shell=True)
-subprocess.Popen('echo "Konvertering færdig."', shell=True)
+if os.name == 'linux':
+    subprocess.Popen('echo "Fjerner diverse filer..."', shell=True)
+    subprocess.Popen('rm ' + tex, shell=True)
+    subprocess.Popen('rm pdf/*.aux', shell=True)
+    subprocess.Popen('rm pdf/*.log', shell=True)
+    subprocess.Popen('rm pdf/*.out', shell=True)
+    subprocess.Popen('echo "Konvertering færdig."', shell=True)
+else:
+    subprocess.Popen('echo "Fjerner diverse filer..."', shell=True)
+    subprocess.Popen('del pdf\*.tex', shell=True)
+    subprocess.Popen('del pdf\*.aux', shell=True)
+    subprocess.Popen('del pdf\*.log', shell=True)
+    subprocess.Popen('del pdf\*.out', shell=True)
+    subprocess.Popen('echo "Konvertering færdig."', shell=True)
 
 # Programmet afsluttes
 exit()
